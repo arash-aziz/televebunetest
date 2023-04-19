@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_user"
+        android:title="@string/profile"
+        android:icon="@mipmap/user"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_repos"
+        android:title="@string/repos"
+        android:icon="@mipmap/gitlab"
+        app:showAsAction="always" />
+</menu>
